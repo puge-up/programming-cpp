@@ -40,7 +40,15 @@ $<|代表规则里第一个依赖文件
 注意：
 
 1. Makefile当中出现.PHONY:clean 意思是，当前目录下也有clean文件时,执行Makefile中的命令clean。
-2. 当其中有确定规则时，执行确定规则的命令。 
+2. 当其中有确定规则时，执行确定规则的命令。
+
+这个是没有使用变量前的Makefile：
+<div align=center><img src='https://mmbiz.qpic.cn/mmbiz_png/cu0TUlMDjbu6QgnD46eLM41Gm4LiaicEBGraiaibTSqX4rm6f2ibg9Lh2lZmHKic6cJRHeAfBOGjh1ODKMfYYK68nyQA/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1' width="50%" height="50%"></div>
+<p align=center>(未使用变量的Makefile)</p>
+
+这个是使用变量后的精简Makefile：
+<div align=center><img src='https://mmbiz.qpic.cn/mmbiz_png/cu0TUlMDjbu6QgnD46eLM41Gm4LiaicEBGyaSzHfPKZjSe5vt2icasDux76Vp9EENicpNuUhFVsolcsl8VaVN6O21w/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1' width="50%" height="50%"></div>
+<p align=center>(使用变量的Makefile)</p>
 
 ## 三、头文件的一点知识
 
@@ -51,14 +59,14 @@ $<|代表规则里第一个依赖文件
 
 头文件的格式：
 
-条件预编译目的：防止头文件的重复包含。
-
 - #ifndef _TEST_H_
 - #define _TEST_H_
 
 - ......
 
 - #endif
+
+条件预编译目的：防止头文件的重复包含。
 
 ## 四、gdb的使用
 
@@ -84,4 +92,4 @@ $<|代表规则里第一个依赖文件
 
 ## 五、说明
 
-原创文章链接：[Makefile和gdb的简单使用](https://mp.weixin.qq.com/s?__biz=MzUxMzkyNDk0Ng==&mid=2247483724&idx=1&sn=2323ae1519de752db53772825452f865&chksm=f94c8b71ce3b026764f12508da38038a3a412d1811b34f5b184fbf4819798312a57d6e762792&scene=21#wechat_redirect)
+原创文章链接：[Makefile和gdb的简单使用](https://mp.weixin.qq.com/s?__biz=MzUxMzkyNDk0Ng==&mid=2247483804&idx=1&sn=4394bb776f52228c56a090c4c472ed3c&chksm=f94c8ba1ce3b02b7534d46375fa70092fad7318622841f17c581e1e9e55e9d44fdf6d6c912f8&scene=21#wechat_redirect)
