@@ -1,3 +1,8 @@
+- [一、深入Linux内核的前提](#一深入linux内核的前提)
+- [二、学习Linux内核的线路](#二学习linux内核的线路)
+- [三、AT&T汇编的不同之处](#三att汇编的不同之处)
+- [四、嵌入式在C语言->嵌入式汇编](#四嵌入式在c语言-嵌入式汇编)
+- [五、说明](#五说明)
 
 ## 一、深入Linux内核的前提
 
@@ -12,32 +17,22 @@
 ## 三、AT&T汇编的不同之处
 
 1. 寄存器的引用：在AT&T汇编的格式下，寄存器的前面要加上：%， %eax；
+2. 操作数的顺序：mov %eax(源), %ebx(目的)
+3. 常数/立即数的格式：使用立即数，要在数的前面加上$, mov $4;
+4. 操作数的长度：操作数的长度用加在指令后的符号表示：b(byte), w(word), l(long), movw %ax, %bx;
+5. 转移指令：ljump和lcall，在Intel中的格式为：jmp far 和 call far；
+6. 寻址方式：偏移量移到了前面了
 
-(2)、操作数的顺序
-mov %eax(源), %ebx(目的)
+## 四、嵌入式在C语言->嵌入式汇编
 
-(3)、常数/立即数的格式
-使用立即数，要在数的前面加上$, mov $4;
+_asm_代表了嵌入式汇编的语句：
 
-(4)、操作数的长度
-操作数的长度用加在指令后的符号表示：
-b(byte), w(word), l(long), movw %ax, %bx;
-
-(5)、转移指令
-ljump和lcall，在Intel中的格式为：jmp far 和 call far；
-
-(6)、寻址方式
-偏移量移到了前面了
-
-4、嵌入式在C语言-->嵌入式汇编
-
-_asm_代表了嵌入式汇编的语句；
-a, b, c, d 分别代表寄存器eax、ebx、ecx、edx；
-S、D 表示寄存器esi edi；
-r 表示任何寄存器；
+- a, b, c, d 分别代表寄存器eax、ebx、ecx、edx；
+- S、D 表示寄存器esi edi；
+- r 表示任何寄存器；
 
 阅读内核代码有可能出现嵌入式汇编语句，得牢牢的掌握!!!
 
-## 六、说明
+## 五、说明
 
-原创文章链接：[C++进阶系列之设计模式（9）---迭代器模式和模板模式](https://mp.weixin.qq.com/s?__biz=MzUxMzkyNDk0Ng==&mid=2247484074&idx=1&sn=25295d9e5cb870302c73f0af2f98cc5f&chksm=f94c8897ce3b0181cc2aeab3e0603f3527f9244bee2dfbc05162254eb7104b8862929fdc1a01&scene=21#wechat_redirect)
+原创文章链接：[Linux内核基础---AT&T汇编与x86汇编的区别](https://mp.weixin.qq.com/s?__biz=MzUxMzkyNDk0Ng==&mid=2247484089&idx=1&sn=b2789f03b5f029b9b9fb86cea59efecc&chksm=f94c8884ce3b0192e9166d7a3f18ed414b65e641d7394faae8326a1ce875fafbf6507326fb37&scene=21#wechat_redirect)
