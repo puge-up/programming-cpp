@@ -46,7 +46,7 @@ Linux下，整个操作系统为方便管理所有进程，于是将所有的进
 
 使用pstree命令就可以查看当前系统的进程树 :
 
-<div align=center><img src='https://s1.51cto.com/wyfs02/M02/87/3D/wKioL1fY0hfxn839AAC1J8Y8Y9g510.png-wh_500x0-wm_3-wmp_4-s_89145685.png' width="50%" height="50%"></div>
+<div align=center><img src='./picture/进程树.png' width="50%" height="50%"></div>
 
 ## 四、创建进程
 
@@ -92,7 +92,7 @@ int main(void){
 
 运行结果：
 
-<div align=center><img src='https://s1.51cto.com/wyfs02/M02/87/40/wKiom1fY2dOA7tlmAABWkTGIK7Q535.png-wh_500x0-wm_3-wmp_4-s_871530519.png' width="50%" height="50%"></div>
+<div align=center><img src='./picture/进程环境_2.png' width="50%" height="50%"></div>
 
 </br>
 
