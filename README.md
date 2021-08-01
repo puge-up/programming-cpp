@@ -1,3 +1,30 @@
+- [programming-cpp](#programming-cpp)
+- [C++ 方向](#c-方向)
+  - [一、要不要选择 C++](#一要不要选择-c)
+  - [二、C++ 选择经历](#二c-选择经历)
+    - [2.1、上](#21上)
+    - [2.2、下](#22下)
+- [个人履历](#个人履历)
+- [编程学习](#编程学习)
+- [C++ 学习笔记](#c-学习笔记)
+  - [一、汇编](#一汇编)
+  - [二、Linux](#二linux)
+  - [三、C 语言基础](#三c-语言基础)
+  - [四、C 语言实战](#四c-语言实战)
+  - [五、数据结构实战](#五数据结构实战)
+  - [六、C++ 基础](#六c-基础)
+  - [七、STL](#七stl)
+  - [八、Boost 库](#八boost-库)
+  - [九、网络编程](#九网络编程)
+  - [十、设计模式](#十设计模式)
+  - [十一、内核+数据库](#十一内核数据库)
+  - [十二、C++ 项目](#十二c-项目)
+- [C++ 资料大礼包](#c-资料大礼包)
+  - [一、视频](#一视频)
+  - [二、电子书](#二电子书)
+  - [三、C++项目](#三c项目)
+- [声明](#声明)
+
 # programming-cpp
 
 本 github 专栏主要记录我大学期间，一路摸索 C++ 学习路线，以及个人 C++ 学习笔记、相关项目，特此分享出来，希望能帮助到大家。
@@ -26,7 +53,7 @@ C++ 方向没有那么多有趣的东西可以做，在很长的一段时间内�
 
 ## 二、C++ 选择经历
 
-### 2.1
+### 2.1、上
 
 我在大三的时候，用 C++ 写过五子棋、内存监控工具、压缩工具、以及实现一些比较复杂的数据结构，实现网络编程的并发模型；当你学习 Linux C/C++ 方向到一定程度的时候，你会找到这个方向的乐趣，跟其他方向完全不一样的乐趣，不过，前期真的很难，有一段时间极其痛苦，是要经过很长一段时间的学习，才能有一定的效果，如果对这个方向，真的没有啥兴趣，最好选择走前端、Java、Python 等是最好的选择。
 
@@ -34,7 +61,7 @@ Linux C/C++ 方向，入门稍微难一点，一旦选择了要走 C++ 方向的
 
 按照目前身边人找工作的情况，普遍来说，Java、Python、前端、数据分析、测试方向都要比 C++ 好找一些，更容易找到工作，虽然我是走的 Linux C/C++ 方向，但是对于对底层没有兴趣，对 C 语言没有兴趣的人，不建议走这个方向。
 
-### 2.2
+### 2.2、下
 
 我一路走过来，真的很痛苦，在校期间都想过放弃这个方向，曾经想学个 Java 可能会好一些（身边学习 Java 的人还是挺多的），每当快放弃的时候，又想到都学了这么长时间了，再坚持坚持，就这样一路走过来了；我是觉得自己真的挺幸运的，有时候，真的不一定非要头铁 C++ 方向，要看整个市场行情，顺势而为，选择好方向，在深入！
 
@@ -104,165 +131,214 @@ C++ 这条路注定难走！（一定要想清楚自己是否真的要选择这�
 
 ## 一、汇编
 
-1. [学习底层知识需要懂一些硬件和汇编的基础！]()
-2. [如何理解计算机中的寄存器和栈！]()
-3. [写出人生的第一个汇编程序！]()
-4. [用汇编写循环（loop）]()
-5. [汇编要掌握的基础知识（上）]()
-6. [汇编要掌握的基础知识（下）]()
+1. [学习底层知识需要懂一些硬件和汇编的基础！](https://github.com/puge-up/programming-cpp/blob/main/article/%E6%B1%87%E7%BC%96/%E5%AD%A6%E4%B9%A0%E5%BA%95%E5%B1%82%E7%9F%A5%E8%AF%86%E9%9C%80%E8%A6%81%E6%87%82%E4%B8%80%E4%BA%9B%E7%A1%AC%E4%BB%B6%E5%92%8C%E6%B1%87%E7%BC%96%E7%9A%84%E5%9F%BA%E7%A1%80.md)
+2. [如何理解计算机中的寄存器和栈！](https://github.com/puge-up/programming-cpp/blob/main/article/%E6%B1%87%E7%BC%96/%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%B8%AD%E7%9A%84%E5%AF%84%E5%AD%98%E5%99%A8%E5%92%8C%E6%A0%88.md)
+3. [写出人生的第一个汇编程序！](https://github.com/puge-up/programming-cpp/blob/main/article/%E6%B1%87%E7%BC%96/%E5%86%99%E5%87%BA%E4%BA%BA%E7%94%9F%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%E6%B1%87%E7%BC%96%E7%A8%8B%E5%BA%8F.md)
+4. [用汇编写循环（loop）](https://github.com/puge-up/programming-cpp/blob/main/article/%E6%B1%87%E7%BC%96/%E7%94%A8%E6%B1%87%E7%BC%96%E5%86%99%E5%BE%AA%E7%8E%AFloop_%E8%BF%99%E6%93%8D%E4%BD%9C%E5%A4%AA6%E4%BA%86.md)
+5. [汇编要掌握的基础知识（上）](https://github.com/puge-up/programming-cpp/blob/main/article/%E6%B1%87%E7%BC%96/%E6%B1%87%E7%BC%96%E8%A6%81%E6%8E%8C%E6%8F%A1%E7%9A%84%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86_%E4%B8%8A.md)
+6. [汇编要掌握的基础知识（下）](https://github.com/puge-up/programming-cpp/blob/main/article/%E6%B1%87%E7%BC%96/%E6%B1%87%E7%BC%96%E8%A6%81%E6%8E%8C%E6%8F%A1%E7%9A%84%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86_%E4%B8%8B.md)
 
 ## 二、Linux
 
-1. [手把手教你安装 Red Hat 64 位虚拟机，跨入Linux大门！]()
-2. [Red Hat7版本本地仓库yum源的配置]()
-3. [Linux 文件属性与用户组]()
-4. [Linux 用户环境]()
-5. [find+SUID+SGID+SBIT，软硬链接+重定向的学习！]()
-6. [Linux基础，tar、grep与正则表达式！]()
-7. [Linux 进程基础知识]()
-8. [Linux下守护进程与远程登录服务器]()
-9. [Linux日志，计划任务，主机名，系统时间！]()
-10. [Linux 网络简单配置]()
+1. [手把手教你安装 Red Hat 64 位虚拟机，跨入Linux大门！](https://github.com/puge-up/programming-cpp/blob/main/article/Linux/%E6%89%8B%E6%8A%8A%E6%89%8B%E6%95%99%E4%BD%A0%E5%AE%89%E8%A3%85RedHat64%E4%BD%8D%E8%99%9A%E6%8B%9F%E6%9C%BA_%E8%B7%A8%E5%85%A5Linux%E5%A4%A7%E9%97%A8.md)
+2. [Red Hat7版本本地仓库yum源的配置](https://github.com/puge-up/programming-cpp/blob/main/article/Linux/RedHat7%E7%89%88%E6%9C%AC%E6%9C%AC%E5%9C%B0%E4%BB%93%E5%BA%93yum%E6%BA%90%E7%9A%84%E9%85%8D%E7%BD%AE.md)
+3. [Linux 文件属性与用户组](https://github.com/puge-up/programming-cpp/blob/main/article/Linux/Linux%E6%96%87%E4%BB%B6%E5%B1%9E%E6%80%A7%E4%B8%8E%E7%94%A8%E6%88%B7%E7%BB%84.md)
+4. [Linux 用户环境](https://github.com/puge-up/programming-cpp/blob/main/article/Linux/Linux%E7%94%A8%E6%88%B7%E7%8E%AF%E5%A2%83.md)
+5. [find+SUID+SGID+SBIT，软硬链接+重定向的学习！](https://github.com/puge-up/programming-cpp/blob/main/article/Linux/find_SUID_SGID_SBIT%E8%BD%AF%E7%A1%AC%E9%93%BE%E6%8E%A5_%E9%87%8D%E5%AE%9A%E5%90%91%E7%9A%84%E5%AD%A6%E4%B9%A0.md)
+6. [Linux基础，tar、grep与正则表达式！](https://github.com/puge-up/programming-cpp/blob/main/article/Linux/Linux%E5%9F%BA%E7%A1%80_tar_grep%E4%B8%8E%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F.md)
+7. [Linux 进程基础知识](https://github.com/puge-up/programming-cpp/blob/main/article/Linux/Linux%E8%BF%9B%E7%A8%8B%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86.md)
+8. [Linux下守护进程与远程登录服务器](https://github.com/puge-up/programming-cpp/blob/main/article/Linux/Linux%E4%B8%8B%E5%AE%88%E6%8A%A4%E8%BF%9B%E7%A8%8B%E4%B8%8E%E8%BF%9C%E7%A8%8B%E7%99%BB%E5%BD%95%E6%9C%8D%E5%8A%A1%E5%99%A8.md)
+9. [Linux日志，计划任务，主机名，系统时间！](https://github.com/puge-up/programming-cpp/blob/main/article/Linux/Linux%E6%97%A5%E5%BF%97_%E8%AE%A1%E5%88%92%E4%BB%BB%E5%8A%A1_%E4%B8%BB%E6%9C%BA%E5%90%8D_%E7%B3%BB%E7%BB%9F%E6%97%B6%E9%97%B4.md)
+10. [Linux 网络简单配置](https://github.com/puge-up/programming-cpp/blob/main/article/Linux/Linux%E7%BD%91%E7%BB%9C%E7%AE%80%E5%8D%95%E9%85%8D%E7%BD%AE.md)
 
 ## 三、C 语言基础
 
-1. [我为什么建议大家一定的会 C 语言]()
-2. [C 语言程序设计-->入门篇]()
-3. [C 语言程序设计-->常量和变量]()
-4. [C 语言程序设计-->数据类型及运算符]()
-5. [C 语言程序设计-->必会的 Linux]()
-6. [C 语言程序设计-->结构化程序设计]()
-7. [C 语言程序设计-->数组]()
-8. [C 语言程序设计-->指针]()
-9. [C 语言程序设计-->函数]()
-10. [C 语言程序设计-->结构体、共用体、动态存储分配、define、typedef]()
+1. [我为什么建议大家一定的会 C 语言](https://github.com/puge-up/programming-cpp/blob/main/article/C%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8/%E6%88%91%E4%B8%BA%E4%BB%80%E4%B9%88%E5%BB%BA%E8%AE%AE%E5%A4%A7%E5%AE%B6%E4%B8%80%E5%AE%9A%E7%9A%84%E4%BC%9AC%E8%AF%AD%E8%A8%80.md)
+2. [C 语言程序设计-->入门篇](https://github.com/puge-up/programming-cpp/blob/main/article/C%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8/C%E8%AF%AD%E8%A8%80%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1_%E5%85%A5%E9%97%A8%E7%AF%87.md)
+3. [C 语言程序设计-->常量和变量](https://github.com/puge-up/programming-cpp/blob/main/article/C%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8/C%E8%AF%AD%E8%A8%80%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1_%E5%B8%B8%E9%87%8F%E5%92%8C%E5%8F%98%E9%87%8F.md)
+4. [C 语言程序设计-->数据类型及运算符](https://github.com/puge-up/programming-cpp/blob/main/article/C%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8/C%E8%AF%AD%E8%A8%80%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1_%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B%E5%8F%8A%E8%BF%90%E7%AE%97%E7%AC%A6.md)
+5. [C 语言程序设计-->必会的 Linux](https://github.com/puge-up/programming-cpp/blob/main/article/C%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8/C%E8%AF%AD%E8%A8%80%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1_%E5%BF%85%E4%BC%9A%E7%9A%84Linux.md)
+6. [C 语言程序设计-->结构化程序设计](https://github.com/puge-up/programming-cpp/blob/main/article/C%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8/C%E8%AF%AD%E8%A8%80%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1_%E7%BB%93%E6%9E%84%E5%8C%96%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1.md)
+7. [C 语言程序设计-->数组](https://github.com/puge-up/programming-cpp/blob/main/article/C%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8/C%E8%AF%AD%E8%A8%80%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1_%E6%95%B0%E7%BB%84.md)
+8. [C 语言程序设计-->指针](https://github.com/puge-up/programming-cpp/blob/main/article/C%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8/C%E8%AF%AD%E8%A8%80%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1_%E6%8C%87%E9%92%88.md)
+9. [C 语言程序设计-->函数](https://github.com/puge-up/programming-cpp/blob/main/article/C%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8/C%E8%AF%AD%E8%A8%80%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1_%E5%87%BD%E6%95%B0.md)
+10. [C 语言程序设计-->结构体、共用体、动态存储分配、define、typedef](https://github.com/puge-up/programming-cpp/blob/main/article/C%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8/C%E8%AF%AD%E8%A8%80%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1_%E7%BB%93%E6%9E%84%E4%BD%93%E3%80%81%E5%85%B1%E7%94%A8%E4%BD%93%E3%80%81%E5%8A%A8%E6%80%81%E5%AD%98%E5%82%A8%E5%88%86%E9%85%8D%E3%80%81define%E3%80%81typedef.md)
 
 ## 四、C 语言实战
 
-1. [一起学习 Linux C/C++ 之旅]()
-2. [C 语言中的一些不足]()
-3. [char *str1 和 char str2[]的详解]()
-4. [strlen()、strcmp()、const]()
-5. [实现strcpy()和strstr()函数的多种方法]()
-6. [C语言中内存对齐与结构体！]()
-7. [二级指针的应用]()
-8. [三级指针的应用场景]()
-9. [UNIX内核源码-->通用链表]()
+1. [一起学习 Linux C/C++ 之旅](https://github.com/puge-up/programming-cpp/blob/main/article/C%E8%AF%AD%E8%A8%80%E5%AE%9E%E6%88%98/%E4%B8%80%E8%B5%B7%E5%AD%A6%E4%B9%A0Linux%20C_C%2B%2B%E4%B9%8B%E6%97%85.md)
+2. [C 语言中的一些不足](https://github.com/puge-up/programming-cpp/blob/main/article/C%E8%AF%AD%E8%A8%80%E5%AE%9E%E6%88%98/C%E8%AF%AD%E8%A8%80%E4%B8%AD%E7%9A%84%E4%B8%80%E4%BA%9B%E4%B8%8D%E8%B6%B3.md)
+3. [char *str1 和 char str2[]的详解](https://github.com/puge-up/programming-cpp/blob/main/article/C%E8%AF%AD%E8%A8%80%E5%AE%9E%E6%88%98/char_*str1%E5%92%8Cchar_str2%5B%5D%E7%9A%84%E8%AF%A6%E8%A7%A3.md)
+4. [strlen()、strcmp()、const](https://github.com/puge-up/programming-cpp/blob/main/article/C%E8%AF%AD%E8%A8%80%E5%AE%9E%E6%88%98/strlen()_strcmp()_const.md)
+5. [实现strcpy()和strstr()函数的多种方法](https://github.com/puge-up/programming-cpp/blob/main/article/C%E8%AF%AD%E8%A8%80%E5%AE%9E%E6%88%98/%E5%AE%9E%E7%8E%B0strcpy()%E5%92%8Cstrstr()%E5%87%BD%E6%95%B0%E7%9A%84%E5%A4%9A%E7%A7%8D%E6%96%B9%E6%B3%95.md)
+6. [C语言中内存对齐与结构体！](https://github.com/puge-up/programming-cpp/blob/main/article/C%E8%AF%AD%E8%A8%80%E5%AE%9E%E6%88%98/C%E8%AF%AD%E8%A8%80%E4%B8%AD%E5%86%85%E5%AD%98%E5%AF%B9%E9%BD%90%E4%B8%8E%E7%BB%93%E6%9E%84%E4%BD%93.md)
+7. [二级指针的应用场景](https://github.com/puge-up/programming-cpp/blob/main/article/C%E8%AF%AD%E8%A8%80%E5%AE%9E%E6%88%98/%E4%BA%8C%E7%BA%A7%E6%8C%87%E9%92%88%E7%9A%84%E5%BA%94%E7%94%A8%E5%9C%BA%E6%99%AF.md)
+8. [三级指针的应用场景](https://github.com/puge-up/programming-cpp/blob/main/article/C%E8%AF%AD%E8%A8%80%E5%AE%9E%E6%88%98/%E4%B8%89%E7%BA%A7%E6%8C%87%E9%92%88%E7%9A%84%E5%BA%94%E7%94%A8%E5%9C%BA%E6%99%AF.md)
+9. [UNIX内核源码-->通用链表](https://github.com/puge-up/programming-cpp/blob/main/article/C%E8%AF%AD%E8%A8%80%E5%AE%9E%E6%88%98/UNIX%E5%86%85%E6%A0%B8%E6%BA%90%E7%A0%81_%E9%80%9A%E7%94%A8%E9%93%BE%E8%A1%A8.md)
 
 ## 五、数据结构实战
 
-1. [从零开始学习数据结构-->入门篇]()
-2. [从零开始学习数据结构-->链表]()
-3. [从零开始学习数据结构-->线性表]()
-4. [从零开始学习数据结构-->栈]()
-5. [从零开始学习数据结构-->队列]()
-6. [从零开始学习数据结构-->矩阵+串]()
-7. [从零开始学习数据结构-->哈希表]()
-8. [从零开始学习数据结构-->散列桶]()
-9. [从零开始学习数据结构-->二叉树]()
-10. [从零开始学习数据结构-->二叉树方法实现]()
-11. [从零开始学习数据结构-->线索二叉树]()
-12. [从零开始学习数据结构-->树、森林与二叉树的转换]()
-13. [从零开始学习数据结构-->大堆+小堆]()
-14. [从零开始学习数据结构-->二叉搜索树（BST）]()
-15. [从零开始学习数据结构-->AVL树之旋转算法]()
-16. [从零开始学习数据结构-->AVL树之插入算法]()
-17. [从零开始学习数据结构-->AVL树之删除算法]()
-18. [从零开始学习数据结构-->红黑树]()
-19. [从零开始学习数据结构-->图之邻接矩阵]()
-20. [从零开始学习数据结构-->图之邻接表]()
-21. [从零开始学习数据结构-->图的遍历]()
-22. [从零开始学习数据结构-->图的非连通遍历]()
+1. [从零开始学习数据结构-->入门篇](https://github.com/puge-up/programming-cpp/blob/main/article/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%BB%A3%E7%A0%81%E5%AE%9E%E7%8E%B0/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E5%AD%A6%E4%B9%A0%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84_%E5%85%A5%E9%97%A8%E7%AF%87.md)
+2. [从零开始学习数据结构-->链表](https://github.com/puge-up/programming-cpp/blob/main/article/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%BB%A3%E7%A0%81%E5%AE%9E%E7%8E%B0/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E5%AD%A6%E4%B9%A0%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84_%E9%93%BE%E8%A1%A8.md)
+3. [从零开始学习数据结构-->线性表](https://github.com/puge-up/programming-cpp/blob/main/article/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%BB%A3%E7%A0%81%E5%AE%9E%E7%8E%B0/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E5%AD%A6%E4%B9%A0%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84_%E7%BA%BF%E6%80%A7%E8%A1%A8.md)
+4. [从零开始学习数据结构-->栈](https://github.com/puge-up/programming-cpp/blob/main/article/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%BB%A3%E7%A0%81%E5%AE%9E%E7%8E%B0/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E5%AD%A6%E4%B9%A0%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84_%E6%A0%88.md)
+5. [从零开始学习数据结构-->队列](https://github.com/puge-up/programming-cpp/blob/main/article/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%BB%A3%E7%A0%81%E5%AE%9E%E7%8E%B0/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E5%AD%A6%E4%B9%A0%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84_%E9%98%9F%E5%88%97.md)
+6. [从零开始学习数据结构-->矩阵+串](https://github.com/puge-up/programming-cpp/blob/main/article/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%BB%A3%E7%A0%81%E5%AE%9E%E7%8E%B0/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E5%AD%A6%E4%B9%A0%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84_%E7%9F%A9%E9%98%B5%2B%E4%B8%B2.md)
+7. [从零开始学习数据结构-->哈希表](https://github.com/puge-up/programming-cpp/blob/main/article/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%BB%A3%E7%A0%81%E5%AE%9E%E7%8E%B0/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E5%AD%A6%E4%B9%A0%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84_%E5%93%88%E5%B8%8C%E8%A1%A8.md)
+8. [从零开始学习数据结构-->散列桶](https://github.com/puge-up/programming-cpp/blob/main/article/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%BB%A3%E7%A0%81%E5%AE%9E%E7%8E%B0/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E5%AD%A6%E4%B9%A0%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84_%E6%95%A3%E5%88%97%E6%A1%B6.md)
+9. [从零开始学习数据结构-->二叉树](https://github.com/puge-up/programming-cpp/blob/main/article/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%BB%A3%E7%A0%81%E5%AE%9E%E7%8E%B0/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E5%AD%A6%E4%B9%A0%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84_%E4%BA%8C%E5%8F%89%E6%A0%91.md)
+10. [从零开始学习数据结构-->二叉树方法实现](https://github.com/puge-up/programming-cpp/blob/main/article/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%BB%A3%E7%A0%81%E5%AE%9E%E7%8E%B0/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E5%AD%A6%E4%B9%A0%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84_%E4%BA%8C%E5%8F%89%E6%A0%91%E6%96%B9%E6%B3%95%E5%AE%9E%E7%8E%B0.md)
+11. [从零开始学习数据结构-->线索二叉树](https://github.com/puge-up/programming-cpp/blob/main/article/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%BB%A3%E7%A0%81%E5%AE%9E%E7%8E%B0/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E5%AD%A6%E4%B9%A0%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84_%E7%BA%BF%E7%B4%A2%E4%BA%8C%E5%8F%89%E6%A0%91.md)
+12. [从零开始学习数据结构-->树、森林与二叉树的转换](https://github.com/puge-up/programming-cpp/blob/main/article/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%BB%A3%E7%A0%81%E5%AE%9E%E7%8E%B0/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E5%AD%A6%E4%B9%A0%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84_%E6%A0%91%E3%80%81%E6%A3%AE%E6%9E%97%E4%B8%8E%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E8%BD%AC%E6%8D%A2.md)
+13. [从零开始学习数据结构-->大堆+小堆](https://github.com/puge-up/programming-cpp/blob/main/article/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%BB%A3%E7%A0%81%E5%AE%9E%E7%8E%B0/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E5%AD%A6%E4%B9%A0%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84_%E5%A4%A7%E5%A0%86%E3%80%81%E5%B0%8F%E5%A0%86.md)
+14. [从零开始学习数据结构-->二叉搜索树（BST）](https://github.com/puge-up/programming-cpp/blob/main/article/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%BB%A3%E7%A0%81%E5%AE%9E%E7%8E%B0/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E5%AD%A6%E4%B9%A0%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84_%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91BST.md)
+15. [从零开始学习数据结构-->AVL树之旋转算法](https://github.com/puge-up/programming-cpp/blob/main/article/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%BB%A3%E7%A0%81%E5%AE%9E%E7%8E%B0/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E5%AD%A6%E4%B9%A0%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84_AVL%E6%A0%91%E4%B9%8B%E6%97%8B%E8%BD%AC%E7%AE%97%E6%B3%95.md)
+16. [从零开始学习数据结构-->AVL树之插入算法](https://github.com/puge-up/programming-cpp/blob/main/article/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%BB%A3%E7%A0%81%E5%AE%9E%E7%8E%B0/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E5%AD%A6%E4%B9%A0%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84_AVL%E6%A0%91%E4%B9%8B%E6%8F%92%E5%85%A5%E7%AE%97%E6%B3%95.md)
+17. [从零开始学习数据结构-->AVL树之删除算法](https://github.com/puge-up/programming-cpp/blob/main/article/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%BB%A3%E7%A0%81%E5%AE%9E%E7%8E%B0/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E5%AD%A6%E4%B9%A0%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84_AVL%E6%A0%91%E4%B9%8B%E5%88%A0%E9%99%A4%E7%AE%97%E6%B3%95.md)
+18. [从零开始学习数据结构-->红黑树](https://github.com/puge-up/programming-cpp/blob/main/article/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%BB%A3%E7%A0%81%E5%AE%9E%E7%8E%B0/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E5%AD%A6%E4%B9%A0%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84_%E7%BA%A2%E9%BB%91%E6%A0%91.md)
+19. [从零开始学习数据结构-->图之邻接矩阵](https://github.com/puge-up/programming-cpp/blob/main/article/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%BB%A3%E7%A0%81%E5%AE%9E%E7%8E%B0/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E5%AD%A6%E4%B9%A0%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84_%E5%9B%BE%E4%B9%8B%E9%82%BB%E6%8E%A5%E7%9F%A9%E9%98%B5.md)
+20. [从零开始学习数据结构-->图之邻接表](https://github.com/puge-up/programming-cpp/blob/main/article/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%BB%A3%E7%A0%81%E5%AE%9E%E7%8E%B0/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E5%AD%A6%E4%B9%A0%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84_%E5%9B%BE%E4%B9%8B%E9%82%BB%E6%8E%A5%E8%A1%A8.md)
+21. [从零开始学习数据结构-->图的遍历](https://github.com/puge-up/programming-cpp/blob/main/article/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%BB%A3%E7%A0%81%E5%AE%9E%E7%8E%B0/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E5%AD%A6%E4%B9%A0%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84_%E5%9B%BE%E7%9A%84%E9%81%8D%E5%8E%86.md)
+22. [从零开始学习数据结构-->图的非连通遍历](https://github.com/puge-up/programming-cpp/blob/main/article/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%BB%A3%E7%A0%81%E5%AE%9E%E7%8E%B0/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E5%AD%A6%E4%B9%A0%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84_%E5%9B%BE%E7%9A%84%E9%9D%9E%E8%BF%9E%E9%80%9A%E9%81%8D%E5%8E%86.md)
 
 ## 六、C++ 基础
 
-1. [从C语言如何过渡到C++，思维的转变是关键！]()
-2. [Makefile和gdb的是LinuxC/C++必备技术]()
-3. [C++从零入门学习系列（1）-->类与对象]()
-4. [C++从零入门学习系列（2）-->this指针]()
-5. [C++从零入门学习系列（3）-->构造函数与析构函数]()
-6. [C++从零入门学习系列（4）-->引用，拷贝构造，赋值语句]()
-7. [C++从零入门学习系列（5）-->默认函数，深拷贝与浅拷贝，深赋值与浅赋值]()
-8. [C++从零入门学习系列（6）-->写时拷贝，引用计数器模型]()
-9. [C++从零入门学习系列（7）-->C++中string数据类型]()
-10. [C++从零入门学习系列（8）-->array和string的运算符重载]()
-11. [C++从零入门学习系列（9）-->C++中四种类型转换]()
-12. [C++从零入门学习系列（10）-->友元函数<<的模板化]()
-13. [C++从零入门学习系列（11）-->const,引用本质,内联,默认/占位参数]()
-14. [C++从零入门学习系列（12）-->友元函数 运算符重载const、static]()
-15. [C++从零入门学习系列（13）-->函数模板、类模板]()
-16. [C++从零入门学习系列（14）-->new和delete]()
-17. [C++从零入门学习系列（15）-->继承]()
-18. [C++从零入门学习系列（16）-->多态]()
-19. [C++从零入门学习系列（17）-->异常]()
-20. [C++从零入门学习系列（18）-->流类库和文件]()
+1. [从C语言如何过渡到C++，思维的转变是关键！](https://github.com/puge-up/programming-cpp/blob/main/article/C%2B%2B%E5%9F%BA%E7%A1%80/%E4%BB%8EC%E8%AF%AD%E8%A8%80%E5%A6%82%E4%BD%95%E8%BF%87%E6%B8%A1%E5%88%B0C%2B%2B.md)
+2. [Makefile和gdb的是LinuxC/C++必备技术](https://github.com/puge-up/programming-cpp/blob/main/article/C%2B%2B%E5%9F%BA%E7%A1%80/makefile%E5%92%8Cgdb%E7%9A%84%E7%AE%80%E5%8D%95%E4%BD%BF%E7%94%A8.md)
+3. [C++从零入门学习系列（1）-->类与对象](https://github.com/puge-up/programming-cpp/blob/main/article/C%2B%2B%E5%9F%BA%E7%A1%80/C%2B%2B%E4%BB%8E%E9%9B%B6%E5%85%A5%E9%97%A8%E5%AD%A6%E4%B9%A0%E7%B3%BB%E5%88%97_%E7%B1%BB%E4%B8%8E%E5%AF%B9%E8%B1%A1.md)
+4. [C++从零入门学习系列（2）-->this指针](https://github.com/puge-up/programming-cpp/blob/main/article/C%2B%2B%E5%9F%BA%E7%A1%80/C%2B%2B%E4%BB%8E%E9%9B%B6%E5%85%A5%E9%97%A8%E5%AD%A6%E4%B9%A0%E7%B3%BB%E5%88%97_this%E6%8C%87%E9%92%88.md)
+5. [C++从零入门学习系列（3）-->构造函数与析构函数](https://github.com/puge-up/programming-cpp/blob/main/article/C%2B%2B%E5%9F%BA%E7%A1%80/C%2B%2B%E4%BB%8E%E9%9B%B6%E5%85%A5%E9%97%A8%E5%AD%A6%E4%B9%A0%E7%B3%BB%E5%88%97_%E6%9E%84%E9%80%A0%E5%87%BD%E6%95%B0%E4%B8%8E%E6%9E%90%E6%9E%84%E5%87%BD%E6%95%B0.md)
+6. [C++从零入门学习系列（4）-->引用，拷贝构造，赋值语句](https://github.com/puge-up/programming-cpp/blob/main/article/C%2B%2B%E5%9F%BA%E7%A1%80/C%2B%2B%E4%BB%8E%E9%9B%B6%E5%85%A5%E9%97%A8%E5%AD%A6%E4%B9%A0%E7%B3%BB%E5%88%97_%E5%BC%95%E7%94%A8_%E6%8B%B7%E8%B4%9D%E6%9E%84%E9%80%A0_%E8%B5%8B%E5%80%BC%E8%AF%AD%E5%8F%A5.md)
+7. [C++从零入门学习系列（5）-->默认函数，深拷贝与浅拷贝，深赋值与浅赋值](https://github.com/puge-up/programming-cpp/blob/main/article/C%2B%2B%E5%9F%BA%E7%A1%80/C%2B%2B%E4%BB%8E%E9%9B%B6%E5%85%A5%E9%97%A8%E5%AD%A6%E4%B9%A0%E7%B3%BB%E5%88%97_%E9%BB%98%E8%AE%A4%E5%87%BD%E6%95%B0_%E6%B7%B1%E6%8B%B7%E8%B4%9D%E4%B8%8E%E6%B5%85%E6%8B%B7%E8%B4%9D_%E6%B7%B1%E8%B5%8B%E5%80%BC%E4%B8%8E%E6%B5%85%E8%B5%8B%E5%80%BC.md)
+8. [C++从零入门学习系列（6）-->写时拷贝，引用计数器模型](https://github.com/puge-up/programming-cpp/blob/main/article/C%2B%2B%E5%9F%BA%E7%A1%80/C%2B%2B%E4%BB%8E%E9%9B%B6%E5%85%A5%E9%97%A8%E5%AD%A6%E4%B9%A0%E7%B3%BB%E5%88%97_%E5%86%99%E6%97%B6%E6%8B%B7%E8%B4%9D_%E5%BC%95%E7%94%A8%E8%AE%A1%E6%95%B0%E5%99%A8%E6%A8%A1%E5%9E%8B.md)
+9. [C++从零入门学习系列（7）-->C++中string数据类型](https://github.com/puge-up/programming-cpp/blob/main/article/C%2B%2B%E5%9F%BA%E7%A1%80/C%2B%2B%E4%BB%8E%E9%9B%B6%E5%85%A5%E9%97%A8%E5%AD%A6%E4%B9%A0%E7%B3%BB%E5%88%97_C%2B%2B%E4%B8%ADstring%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B.md)
+10. [C++从零入门学习系列（8）-->array和string的运算符重载](https://github.com/puge-up/programming-cpp/blob/main/article/C%2B%2B%E5%9F%BA%E7%A1%80/C%2B%2B%E4%BB%8E%E9%9B%B6%E5%85%A5%E9%97%A8%E5%AD%A6%E4%B9%A0%E7%B3%BB%E5%88%97_array%E5%92%8Cstring%E7%9A%84%E8%BF%90%E7%AE%97%E7%AC%A6%E9%87%8D%E8%BD%BD.md)
+11. [C++从零入门学习系列（9）-->C++中四种类型转换](https://github.com/puge-up/programming-cpp/blob/main/article/C%2B%2B%E5%9F%BA%E7%A1%80/C%2B%2B%E4%BB%8E%E9%9B%B6%E5%85%A5%E9%97%A8%E5%AD%A6%E4%B9%A0%E7%B3%BB%E5%88%97_C%2B%2B%E4%B8%AD%E5%9B%9B%E7%A7%8D%E7%B1%BB%E5%9E%8B%E8%BD%AC%E6%8D%A2.md)
+12. [C++从零入门学习系列（10）-->友元函数<<的模板化](https://github.com/puge-up/programming-cpp/blob/main/article/C%2B%2B%E5%9F%BA%E7%A1%80/C%2B%2B%E4%BB%8E%E9%9B%B6%E5%85%A5%E9%97%A8%E5%AD%A6%E4%B9%A0%E7%B3%BB%E5%88%97_%E5%8F%8B%E5%85%83%E5%87%BD%E6%95%B0%E6%A8%A1%E6%9D%BF%E5%8C%96.md)
+13. [C++从零入门学习系列（11）-->const,引用本质,内联,默认/占位参数](https://github.com/puge-up/programming-cpp/blob/main/article/C%2B%2B%E5%9F%BA%E7%A1%80/C%2B%2B%E4%BB%8E%E9%9B%B6%E5%85%A5%E9%97%A8%E5%AD%A6%E4%B9%A0%E7%B3%BB%E5%88%97_const_%E5%BC%95%E7%94%A8%E6%9C%AC%E8%B4%A8_%E5%86%85%E8%81%94_%E9%BB%98%E8%AE%A4_%E5%8D%A0%E4%BD%8D%E5%8F%82%E6%95%B0.md)
+14. [C++从零入门学习系列（12）-->友元函数 运算符重载const、static](https://github.com/puge-up/programming-cpp/blob/main/article/C%2B%2B%E5%9F%BA%E7%A1%80/C%2B%2B%E4%BB%8E%E9%9B%B6%E5%85%A5%E9%97%A8%E5%AD%A6%E4%B9%A0%E7%B3%BB%E5%88%97_%E5%8F%8B%E5%85%83%E5%87%BD%E6%95%B0_%E8%BF%90%E7%AE%97%E7%AC%A6%E9%87%8D%E8%BD%BDconst_static.md)
+15. [C++从零入门学习系列（13）-->函数模板、类模板](https://github.com/puge-up/programming-cpp/blob/main/article/C%2B%2B%E5%9F%BA%E7%A1%80/C%2B%2B%E4%BB%8E%E9%9B%B6%E5%85%A5%E9%97%A8%E5%AD%A6%E4%B9%A0%E7%B3%BB%E5%88%97_%E5%87%BD%E6%95%B0%E6%A8%A1%E6%9D%BF_%E7%B1%BB%E6%A8%A1%E6%9D%BF.md)
+16. [C++从零入门学习系列（14）-->new和delete](https://github.com/puge-up/programming-cpp/blob/main/article/C%2B%2B%E5%9F%BA%E7%A1%80/C%2B%2B%E4%BB%8E%E9%9B%B6%E5%85%A5%E9%97%A8%E5%AD%A6%E4%B9%A0%E7%B3%BB%E5%88%97_new%E5%92%8Cdelete.md)
+17. [C++从零入门学习系列（15）-->继承](https://github.com/puge-up/programming-cpp/blob/main/article/C%2B%2B%E5%9F%BA%E7%A1%80/C%2B%2B%E4%BB%8E%E9%9B%B6%E5%85%A5%E9%97%A8%E5%AD%A6%E4%B9%A0%E7%B3%BB%E5%88%97_%E7%BB%A7%E6%89%BF.md)
+18. [C++从零入门学习系列（16）-->多态](https://github.com/puge-up/programming-cpp/blob/main/article/C%2B%2B%E5%9F%BA%E7%A1%80/C%2B%2B%E4%BB%8E%E9%9B%B6%E5%85%A5%E9%97%A8%E5%AD%A6%E4%B9%A0%E7%B3%BB%E5%88%97_%E5%A4%9A%E6%80%81.md)
+19. [C++从零入门学习系列（17）-->异常](https://github.com/puge-up/programming-cpp/blob/main/article/C%2B%2B%E5%9F%BA%E7%A1%80/C%2B%2B%E4%BB%8E%E9%9B%B6%E5%85%A5%E9%97%A8%E5%AD%A6%E4%B9%A0%E7%B3%BB%E5%88%97_%E5%BC%82%E5%B8%B8.md)
+20. [C++从零入门学习系列（18）-->流类库和文件](https://github.com/puge-up/programming-cpp/blob/main/article/C%2B%2B%E5%9F%BA%E7%A1%80/C%2B%2B%E4%BB%8E%E9%9B%B6%E5%85%A5%E9%97%A8%E5%AD%A6%E4%B9%A0%E7%B3%BB%E5%88%97_%E6%B5%81%E7%B1%BB%E5%BA%93%E5%92%8C%E6%96%87%E4%BB%B6.md)
 
 ## 七、STL
 
-1. [C++进阶系列之STL（1）-->剖析List部分源码]()
-2. [C++进阶系列之STL（2）-->SGI版本空间配置器]()
-3. [C++进阶系列之STL（3）-->STL的框架实现]()
-4. [C++进阶系列之STL（4）-->函数适配器]()
-5. [C++进阶系列之STL（5）-->vector，deque，list相关操作]()
-6. [C++进阶系列之STL（6）-->set，map相关操作]()
-7. [C++进阶系列之STL（7）-->STL学习思想]()
-8. [C++进阶系列之STL（8）-->仿函数]()
-9. [C++进阶系列之STL（9）-->find_if(),plus,for_each()的用法]()
-10. [C++进阶系列之STL（10）-->STL查找、排序、替换、集合算法]()
+1. [C++进阶系列之STL（1）-->STL学习思想](https://github.com/puge-up/programming-cpp/blob/main/article/C%2B%2B_STL/C%2B%2B%E8%BF%9B%E9%98%B6%E7%B3%BB%E5%88%97%E4%B9%8BSTL_STL%E5%AD%A6%E4%B9%A0%E6%80%9D%E6%83%B3.md)
+2. [C++进阶系列之STL（2）-->剖析List部分源码](https://github.com/puge-up/programming-cpp/blob/main/article/C%2B%2B_STL/C%2B%2B%E8%BF%9B%E9%98%B6%E7%B3%BB%E5%88%97%E4%B9%8BSTL_%E5%89%96%E6%9E%90List%E9%83%A8%E5%88%86%E6%BA%90%E7%A0%81.md)
+3. [C++进阶系列之STL（3）-->SGI版本空间配置器](https://github.com/puge-up/programming-cpp/blob/main/article/C%2B%2B_STL/C%2B%2B%E8%BF%9B%E9%98%B6%E7%B3%BB%E5%88%97%E4%B9%8BSTL_SGI%E7%89%88%E6%9C%AC%E7%A9%BA%E9%97%B4%E9%85%8D%E7%BD%AE%E5%99%A8.md)
+4. [C++进阶系列之STL（4）-->STL的框架实现](https://github.com/puge-up/programming-cpp/blob/main/article/C%2B%2B_STL/C%2B%2B%E8%BF%9B%E9%98%B6%E7%B3%BB%E5%88%97%E4%B9%8BSTL_STL%E7%9A%84%E6%A1%86%E6%9E%B6%E5%AE%9E%E7%8E%B0.md)
+5. [C++进阶系列之STL（5）-->函数适配器](https://github.com/puge-up/programming-cpp/blob/main/article/C%2B%2B_STL/C%2B%2B%E8%BF%9B%E9%98%B6%E7%B3%BB%E5%88%97%E4%B9%8BSTL_%E5%87%BD%E6%95%B0%E9%80%82%E9%85%8D%E5%99%A8.md)
+6. [C++进阶系列之STL（6）-->vector，deque，list相关操作](https://github.com/puge-up/programming-cpp/blob/main/article/C%2B%2B_STL/C%2B%2B%E8%BF%9B%E9%98%B6%E7%B3%BB%E5%88%97%E4%B9%8BSTL_vector_deque_list%E7%9B%B8%E5%85%B3%E6%93%8D%E4%BD%9C.md)
+7. [C++进阶系列之STL（7）-->set，map相关操作](https://github.com/puge-up/programming-cpp/blob/main/article/C%2B%2B_STL/C%2B%2B%E8%BF%9B%E9%98%B6%E7%B3%BB%E5%88%97%E4%B9%8BSTL_set_map%E7%9B%B8%E5%85%B3%E6%93%8D%E4%BD%9C.md)
+8. [C++进阶系列之STL（8）-->仿函数](https://github.com/puge-up/programming-cpp/blob/main/article/C%2B%2B_STL/C%2B%2B%E8%BF%9B%E9%98%B6%E7%B3%BB%E5%88%97%E4%B9%8BSTL_%E4%BB%BF%E5%87%BD%E6%95%B0.md)
+9. [C++进阶系列之STL（9）-->find_if(),plus,for_each()的用法](https://github.com/puge-up/programming-cpp/blob/main/article/C%2B%2B_STL/C%2B%2B%E8%BF%9B%E9%98%B6%E7%B3%BB%E5%88%97%E4%B9%8BSTL_find_if()_plus_for_each()%E7%9A%84%E7%94%A8%E6%B3%95.md)
+10. [C++进阶系列之STL（10）-->STL查找、排序、替换、集合算法](https://github.com/puge-up/programming-cpp/blob/main/article/C%2B%2B_STL/C%2B%2B%E8%BF%9B%E9%98%B6%E7%B3%BB%E5%88%97%E4%B9%8BSTL_STL%E6%9F%A5%E6%89%BE_%E6%8E%92%E5%BA%8F_%E6%9B%BF%E6%8D%A2_%E9%9B%86%E5%90%88%E7%AE%97%E6%B3%95.md)
 
 ## 八、Boost 库
 
-1. [C++进阶系列之Boost库智能指针（1）-->智能指针VC版]()
-2. [C++进阶系列之Boost库智能指针（2）-->VS/Linux版的auto_ptr]()
-3. [C++进阶系列之Boost库智能指针（3）-->scoped_ptr]()
-4. [C++进阶系列之Boost库智能指针（4）-->scoped_array]()
-5. [C++进阶系列之Boost库智能指针（5）-->shared_ptr(上)]()
-6. [C++进阶系列之Boost库智能指针（6）-->shared_ptr(下)]()
-7. [C++进阶系列之Boost库智能指针（7）-->shared_array]()
-8. [C++进阶系列之Boost库智能指针（8）-->weak_ptr和intrusive_ptr]()
+1. [C++进阶系列之Boost库智能指针（1）-->智能指针VC版](https://github.com/puge-up/programming-cpp/blob/main/article/C%2B%2B_Boost%E5%BA%93/C%2B%2B%E8%BF%9B%E9%98%B6%E7%B3%BB%E5%88%97%E4%B9%8BBoost%E5%BA%93%E6%99%BA%E8%83%BD%E6%8C%87%E9%92%88_%E6%99%BA%E8%83%BD%E6%8C%87%E9%92%88VC%E7%89%88.md)
+2. [C++进阶系列之Boost库智能指针（2）-->VS/Linux版的auto_ptr](https://github.com/puge-up/programming-cpp/blob/main/article/C%2B%2B_Boost%E5%BA%93/C%2B%2B%E8%BF%9B%E9%98%B6%E7%B3%BB%E5%88%97%E4%B9%8BBoost%E5%BA%93%E6%99%BA%E8%83%BD%E6%8C%87%E9%92%88_VS_Linux%E7%89%88%E7%9A%84auto_ptr.md)
+3. [C++进阶系列之Boost库智能指针（3）-->scoped_ptr](https://github.com/puge-up/programming-cpp/blob/main/article/C%2B%2B_Boost%E5%BA%93/C%2B%2B%E8%BF%9B%E9%98%B6%E7%B3%BB%E5%88%97%E4%B9%8BBoost%E5%BA%93%E6%99%BA%E8%83%BD%E6%8C%87%E9%92%88_scoped_ptr.md)
+4. [C++进阶系列之Boost库智能指针（4）-->scoped_array](https://github.com/puge-up/programming-cpp/blob/main/article/C%2B%2B_Boost%E5%BA%93/C%2B%2B%E8%BF%9B%E9%98%B6%E7%B3%BB%E5%88%97%E4%B9%8BBoost%E5%BA%93%E6%99%BA%E8%83%BD%E6%8C%87%E9%92%88_scoped_array.md)
+5. [C++进阶系列之Boost库智能指针（5）-->shared_ptr(上)](https://github.com/puge-up/programming-cpp/blob/main/article/C%2B%2B_Boost%E5%BA%93/C%2B%2B%E8%BF%9B%E9%98%B6%E7%B3%BB%E5%88%97%E4%B9%8BBoost%E5%BA%93%E6%99%BA%E8%83%BD%E6%8C%87%E9%92%88_shared_ptr_%E4%B8%8A.md)
+6. [C++进阶系列之Boost库智能指针（6）-->shared_ptr(下)](https://github.com/puge-up/programming-cpp/blob/main/article/C%2B%2B_Boost%E5%BA%93/C%2B%2B%E8%BF%9B%E9%98%B6%E7%B3%BB%E5%88%97%E4%B9%8BBoost%E5%BA%93%E6%99%BA%E8%83%BD%E6%8C%87%E9%92%88_shared_ptr.md)
+7. [C++进阶系列之Boost库智能指针（7）-->shared_array](https://github.com/puge-up/programming-cpp/blob/main/article/C%2B%2B_Boost%E5%BA%93/C%2B%2B%E8%BF%9B%E9%98%B6%E7%B3%BB%E5%88%97%E4%B9%8BBoost%E5%BA%93%E6%99%BA%E8%83%BD%E6%8C%87%E9%92%88_shared_array.md)
+8. [C++进阶系列之Boost库智能指针（8）-->weak_ptr和intrusive_ptr](https://github.com/puge-up/programming-cpp/blob/main/article/C%2B%2B_Boost%E5%BA%93/C%2B%2B%E8%BF%9B%E9%98%B6%E7%B3%BB%E5%88%97%E4%B9%8BBoost%E5%BA%93%E6%99%BA%E8%83%BD%E6%8C%87%E9%92%88_weak_ptr%E5%92%8Cintrusive_ptr.md)
 
 ## 九、网络编程
 
-文件I-O
-Linux进程环境
-Linux下的几种特殊进程
-进程间通信-->信号
-进程间通信—->文件
-进程间通信-->管道
-进程间通信-->管道深入
-IPC入门
-进程间通信-->信号量
-
-
+1. [文件I-O](https://github.com/puge-up/programming-cpp/blob/main/article/C%2B%2B%E7%BD%91%E7%BB%9C%E7%BC%96%E7%A8%8B/%E6%96%87%E4%BB%B6IO.md)
+2. [Linux进程环境](https://github.com/puge-up/programming-cpp/blob/main/article/C%2B%2B%E7%BD%91%E7%BB%9C%E7%BC%96%E7%A8%8B/Linux%E8%BF%9B%E7%A8%8B%E7%8E%AF%E5%A2%83.md)
+3. [Linux下的几种特殊进程](https://github.com/puge-up/programming-cpp/blob/main/article/C%2B%2B%E7%BD%91%E7%BB%9C%E7%BC%96%E7%A8%8B/Linux%E4%B8%8B%E7%9A%84%E5%87%A0%E7%A7%8D%E7%89%B9%E6%AE%8A%E8%BF%9B%E7%A8%8B.md)
+4. [进程间通信-->信号](https://github.com/puge-up/programming-cpp/blob/main/article/C%2B%2B%E7%BD%91%E7%BB%9C%E7%BC%96%E7%A8%8B/%E8%BF%9B%E7%A8%8B%E9%97%B4%E9%80%9A%E4%BF%A1_%E4%BF%A1%E5%8F%B7.md)
+5. [进程间通信—->文件](https://github.com/puge-up/programming-cpp/blob/main/article/C%2B%2B%E7%BD%91%E7%BB%9C%E7%BC%96%E7%A8%8B/%E8%BF%9B%E7%A8%8B%E9%97%B4%E9%80%9A%E4%BF%A1_%E6%96%87%E4%BB%B6.md)
+6. [进程间通信-->管道](https://github.com/puge-up/programming-cpp/blob/main/article/C%2B%2B%E7%BD%91%E7%BB%9C%E7%BC%96%E7%A8%8B/%E8%BF%9B%E7%A8%8B%E9%97%B4%E9%80%9A%E4%BF%A1_%E7%AE%A1%E9%81%93.md)
+7. [进程间通信-->管道深入](https://github.com/puge-up/programming-cpp/blob/main/article/C%2B%2B%E7%BD%91%E7%BB%9C%E7%BC%96%E7%A8%8B/%E8%BF%9B%E7%A8%8B%E9%97%B4%E9%80%9A%E4%BF%A1_%E7%AE%A1%E9%81%93%E6%B7%B1%E5%85%A5.md)
+8. [IPC入门](https://github.com/puge-up/programming-cpp/blob/main/article/C%2B%2B%E7%BD%91%E7%BB%9C%E7%BC%96%E7%A8%8B/IPC%E5%85%A5%E9%97%A8.md)
+9. [进程间通信-->信号量](https://github.com/puge-up/programming-cpp/blob/main/article/C%2B%2B%E7%BD%91%E7%BB%9C%E7%BC%96%E7%A8%8B/%E8%BF%9B%E7%A8%8B%E9%97%B4%E9%80%9A%E4%BF%A1_%E4%BF%A1%E5%8F%B7%E9%87%8F.md)
+10. [进程间通信-->共享内存](https://github.com/puge-up/programming-cpp/blob/main/article/C%2B%2B%E7%BD%91%E7%BB%9C%E7%BC%96%E7%A8%8B/%E8%BF%9B%E7%A8%8B%E9%97%B4%E9%80%9A%E4%BF%A1_%E5%85%B1%E4%BA%AB%E5%86%85%E5%AD%98.md)
+11. [P-V操作](https://github.com/puge-up/programming-cpp/blob/main/article/C%2B%2B%E7%BD%91%E7%BB%9C%E7%BC%96%E7%A8%8B/P_V%E6%93%8D%E4%BD%9C.md)
+12. [进程间通信-->消息队列](https://github.com/puge-up/programming-cpp/blob/main/article/C%2B%2B%E7%BD%91%E7%BB%9C%E7%BC%96%E7%A8%8B/%E8%BF%9B%E7%A8%8B%E9%97%B4%E9%80%9A%E4%BF%A1_%E6%B6%88%E6%81%AF%E9%98%9F%E5%88%97.md)
+13. [线程](https://github.com/puge-up/programming-cpp/blob/main/article/C%2B%2B%E7%BD%91%E7%BB%9C%E7%BC%96%E7%A8%8B/%E7%BA%BF%E7%A8%8B.md)
+14. [互斥量和条件变量](https://github.com/puge-up/programming-cpp/blob/main/article/C%2B%2B%E7%BD%91%E7%BB%9C%E7%BC%96%E7%A8%8B/%E4%BA%92%E6%96%A5%E9%87%8F%E5%92%8C%E6%9D%A1%E4%BB%B6%E5%8F%98%E9%87%8F.md)
+15. [生产者与消费者](https://github.com/puge-up/programming-cpp/blob/main/article/C%2B%2B%E7%BD%91%E7%BB%9C%E7%BC%96%E7%A8%8B/%E7%94%9F%E4%BA%A7%E8%80%85%E4%B8%8E%E6%B6%88%E8%B4%B9%E8%80%85.md)
+16. [读写锁](https://github.com/puge-up/programming-cpp/blob/main/article/C%2B%2B%E7%BD%91%E7%BB%9C%E7%BC%96%E7%A8%8B/%E8%AF%BB%E5%86%99%E9%94%81.md)
+17. [读锁优先的实现](https://github.com/puge-up/programming-cpp/blob/main/article/C%2B%2B%E7%BD%91%E7%BB%9C%E7%BC%96%E7%A8%8B/%E8%AF%BB%E9%94%81%E4%BC%98%E5%85%88%E7%9A%84%E5%AE%9E%E7%8E%B0.md)
+18. [socket网络编程](https://github.com/puge-up/programming-cpp/blob/main/article/C%2B%2B%E7%BD%91%E7%BB%9C%E7%BC%96%E7%A8%8B/socket%E7%BD%91%E7%BB%9C%E7%BC%96%E7%A8%8B.md)
+19. [多进程网络服务](https://github.com/puge-up/programming-cpp/blob/main/article/C%2B%2B%E7%BD%91%E7%BB%9C%E7%BC%96%E7%A8%8B/%E5%A4%9A%E8%BF%9B%E7%A8%8B%E7%BD%91%E7%BB%9C%E6%9C%8D%E5%8A%A1.md)
+20. [多线程网络服务](https://github.com/puge-up/programming-cpp/blob/main/article/C%2B%2B%E7%BD%91%E7%BB%9C%E7%BC%96%E7%A8%8B/%E5%A4%9A%E7%BA%BF%E7%A8%8B%E7%BD%91%E7%BB%9C%E6%9C%8D%E5%8A%A1.md)
+21. [线程池网络服务](https://github.com/puge-up/programming-cpp/blob/main/article/C%2B%2B%E7%BD%91%E7%BB%9C%E7%BC%96%E7%A8%8B/%E7%BA%BF%E7%A8%8B%E6%B1%A0%E7%BD%91%E7%BB%9C%E6%9C%8D%E5%8A%A1.md)
+22. [套接字设置](https://github.com/puge-up/programming-cpp/blob/main/article/C%2B%2B%E7%BD%91%E7%BB%9C%E7%BC%96%E7%A8%8B/%E5%A5%97%E6%8E%A5%E5%AD%97%E8%AE%BE%E7%BD%AE.md)
+23. [Linux I/O复用-->select()](https://github.com/puge-up/programming-cpp/blob/main/article/C%2B%2B%E7%BD%91%E7%BB%9C%E7%BC%96%E7%A8%8B/Linux_IO%E5%A4%8D%E7%94%A8_select.md)
+24. [Linux I/O复用-->poll()](https://github.com/puge-up/programming-cpp/blob/main/article/C%2B%2B%E7%BD%91%E7%BB%9C%E7%BC%96%E7%A8%8B/Linux_IO%E5%A4%8D%E7%94%A8_poll.md)
+25. [Linux I/O复用-->epoll](https://github.com/puge-up/programming-cpp/blob/main/article/C%2B%2B%E7%BD%91%E7%BB%9C%E7%BC%96%E7%A8%8B/Linux_IO%E5%A4%8D%E7%94%A8_epoll.md)
+26. [静态库与动态库的制作](https://github.com/puge-up/programming-cpp/blob/main/article/C%2B%2B%E7%BD%91%E7%BB%9C%E7%BC%96%E7%A8%8B/%E9%9D%99%E6%80%81%E5%BA%93%E4%B8%8E%E5%8A%A8%E6%80%81%E5%BA%93%E7%9A%84%E5%88%B6%E4%BD%9C.md)
 
 ## 十、设计模式
 
-1. [C++进阶系列之设计模式（1）-->设计模式的核心思想]()
-2. [C++进阶系列之设计模式（2）-->单例模式]()
-3. [C++进阶系列之设计模式（3）-->工厂模式和原型模式]()
-4. [C++进阶系列之设计模式（4）-->建造者模式和抽象工厂模式]()
-5. [C++进阶系列之设计模式（5）-->代理模式和桥接模式]()
-6. [C++进阶系列之设计模式（6）-->装饰模式和适配器模式]()
-7. [C++进阶系列之设计模式（7）-->备忘录模式和策略模式]()
-8. [C++进阶系列之设计模式（8）-->中介者模式和命令模式]()
-9. [C++进阶系列之设计模式（9）-->迭代器模式和模板模式]()
+1. [C++进阶系列之设计模式（1）-->设计模式的核心思想](https://github.com/puge-up/programming-cpp/blob/main/article/C%2B%2B_%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/C%2B%2B%E8%BF%9B%E9%98%B6%E7%B3%BB%E5%88%97%E4%B9%8B%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E7%9A%84%E6%A0%B8%E5%BF%83%E6%80%9D%E6%83%B3.md)
+2. [C++进阶系列之设计模式（2）-->单例模式](https://github.com/puge-up/programming-cpp/blob/main/article/C%2B%2B_%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/C%2B%2B%E8%BF%9B%E9%98%B6%E7%B3%BB%E5%88%97%E4%B9%8B%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F_%E5%8D%95%E4%BE%8B%E6%A8%A1%E5%BC%8F.md)
+3. [C++进阶系列之设计模式（3）-->工厂模式和原型模式](https://github.com/puge-up/programming-cpp/blob/main/article/C%2B%2B_%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/C%2B%2B%E8%BF%9B%E9%98%B6%E7%B3%BB%E5%88%97%E4%B9%8B%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F_%E5%B7%A5%E5%8E%82%E6%A8%A1%E5%BC%8F%E5%92%8C%E5%8E%9F%E5%9E%8B%E6%A8%A1%E5%BC%8F.md)
+4. [C++进阶系列之设计模式（4）-->建造者模式和抽象工厂模式](https://github.com/puge-up/programming-cpp/blob/main/article/C%2B%2B_%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/C%2B%2B%E8%BF%9B%E9%98%B6%E7%B3%BB%E5%88%97%E4%B9%8B%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F_%E5%BB%BA%E9%80%A0%E8%80%85%E6%A8%A1%E5%BC%8F%E5%92%8C%E6%8A%BD%E8%B1%A1%E5%B7%A5%E5%8E%82%E6%A8%A1%E5%BC%8F.md)
+5. [C++进阶系列之设计模式（5）-->代理模式和桥接模式](https://github.com/puge-up/programming-cpp/blob/main/article/C%2B%2B_%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/C%2B%2B%E8%BF%9B%E9%98%B6%E7%B3%BB%E5%88%97%E4%B9%8B%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F_%E4%BB%A3%E7%90%86%E6%A8%A1%E5%BC%8F%E5%92%8C%E6%A1%A5%E6%8E%A5%E6%A8%A1%E5%BC%8F.md)
+6. [C++进阶系列之设计模式（6）-->装饰模式和适配器模式](https://github.com/puge-up/programming-cpp/blob/main/article/C%2B%2B_%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/C%2B%2B%E8%BF%9B%E9%98%B6%E7%B3%BB%E5%88%97%E4%B9%8B%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F_%E8%A3%85%E9%A5%B0%E6%A8%A1%E5%BC%8F%E5%92%8C%E9%80%82%E9%85%8D%E5%99%A8%E6%A8%A1%E5%BC%8F.md)
+7. [C++进阶系列之设计模式（7）-->备忘录模式和策略模式](https://github.com/puge-up/programming-cpp/blob/main/article/C%2B%2B_%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/C%2B%2B%E8%BF%9B%E9%98%B6%E7%B3%BB%E5%88%97%E4%B9%8B%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F_%E5%A4%87%E5%BF%98%E5%BD%95%E6%A8%A1%E5%BC%8F%E5%92%8C%E7%AD%96%E7%95%A5%E6%A8%A1%E5%BC%8F.md)
+8. [C++进阶系列之设计模式（8）-->中介者模式和命令模式](https://github.com/puge-up/programming-cpp/blob/main/article/C%2B%2B_%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/C%2B%2B%E8%BF%9B%E9%98%B6%E7%B3%BB%E5%88%97%E4%B9%8B%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F_%E4%B8%AD%E4%BB%8B%E8%80%85%E6%A8%A1%E5%BC%8F%E5%92%8C%E5%91%BD%E4%BB%A4%E6%A8%A1%E5%BC%8F.md)
+9. [C++进阶系列之设计模式（9）-->迭代器模式和模板模式](https://github.com/puge-up/programming-cpp/blob/main/article/C%2B%2B_%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/C%2B%2B%E8%BF%9B%E9%98%B6%E7%B3%BB%E5%88%97%E4%B9%8B%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F_%E8%BF%AD%E4%BB%A3%E5%99%A8%E6%A8%A1%E5%BC%8F%E5%92%8C%E6%A8%A1%E6%9D%BF%E6%A8%A1%E5%BC%8F.md)
 
 ## 十一、内核+数据库
 
-1. [Linux内核基础-->AT&T汇编与x86汇编的区别]()
-2. [源码解读之工具--> Source Insight]()
-3. [C开发Mysql客户端]()
+1. [Linux内核基础-->AT&T汇编与x86汇编的区别](https://github.com/puge-up/programming-cpp/blob/main/article/C%2B%2B%E5%86%85%E6%A0%B8_%E6%95%B0%E6%8D%AE%E5%BA%93/Linux%E5%86%85%E6%A0%B8%E5%9F%BA%E7%A1%80_AT%E6%B1%87%E7%BC%96%E4%B8%8Ex86%E6%B1%87%E7%BC%96%E7%9A%84%E5%8C%BA%E5%88%AB.md)
+2. [源码解读之工具-->Source Insight](https://github.com/puge-up/programming-cpp/blob/main/article/C%2B%2B%E5%86%85%E6%A0%B8_%E6%95%B0%E6%8D%AE%E5%BA%93/%E6%BA%90%E7%A0%81%E8%A7%A3%E8%AF%BB%E4%B9%8B%E5%B7%A5%E5%85%B7_Source_Insight.md)
+3. [C开发Mysql客户端](https://github.com/puge-up/programming-cpp/blob/main/article/C%2B%2B%E5%86%85%E6%A0%B8_%E6%95%B0%E6%8D%AE%E5%BA%93/C%E5%BC%80%E5%8F%91Mysql%E5%AE%A2%E6%88%B7%E7%AB%AF.md)
 
 ## 十二、C++ 项目
 
-1. [大数运算]()
-2. [哈夫曼压缩解压缩]()
-3. [多进程]()
-4. [多线程]()
-5. [线程池]()
-6. [poll模型]()
+1. [大数运算](https://github.com/puge-up/programming-cpp/tree/main/article/C%2B%2B%E9%A1%B9%E7%9B%AE%E5%AE%9E%E6%88%98/%E5%A4%A7%E6%95%B0%E8%BF%90%E7%AE%97%E9%A1%B9%E7%9B%AE)
+2. [哈夫曼压缩解压缩](https://github.com/puge-up/programming-cpp/tree/main/article/C%2B%2B%E9%A1%B9%E7%9B%AE%E5%AE%9E%E6%88%98/%E5%93%88%E5%A4%AB%E6%9B%BC%E5%8E%8B%E7%BC%A9%E8%A7%A3%E5%8E%8B%E7%BC%A9%E9%A1%B9%E7%9B%AE)
+3. [多进程](https://github.com/puge-up/programming-cpp/tree/main/article/C%2B%2B%E9%A1%B9%E7%9B%AE%E5%AE%9E%E6%88%98/%E5%A4%9A%E8%BF%9B%E7%A8%8B%E9%A1%B9%E7%9B%AE)
+4. [多线程](https://github.com/puge-up/programming-cpp/tree/main/article/C%2B%2B%E9%A1%B9%E7%9B%AE%E5%AE%9E%E6%88%98/%E5%A4%9A%E7%BA%BF%E7%A8%8B%E9%A1%B9%E7%9B%AE)
+5. [线程池](https://github.com/puge-up/programming-cpp/tree/main/article/C%2B%2B%E9%A1%B9%E7%9B%AE%E5%AE%9E%E6%88%98/%E7%BA%BF%E7%A8%8B%E6%B1%A0%E9%A1%B9%E7%9B%AE)
+6. [poll模型](https://github.com/puge-up/programming-cpp/tree/main/article/C%2B%2B%E9%A1%B9%E7%9B%AE%E5%AE%9E%E6%88%98/poll%E6%A8%A1%E5%9E%8B%E9%A1%B9%E7%9B%AE)
 
 # C++ 资料大礼包
 
+## 一、视频
+
+图
+
+
+## 二、电子书
+
+图
+
+## 三、C++项目
+
+图
+
+---
+>**获取方式：wx搜索公众号【程序员谱戈】，后台回复：pgnb，即可获取以上资料大礼包。**
+>
+> **如果百度网盘链接失效，请发【邮件】联系我，我邮件发送。**
+
+---
+
 
 # 声明
+
+- 网名：谱戈
+- 邮箱：1042068690@qq.com
+- 微信：puge2021
+- 公众号【程序员谱戈】，欢迎关注
+- 知识星球：[BAT黑马实验室](https://t.zsxq.com/FYbm6aA)
+- 交流群：校招、社招、技术群欢迎加入
+- 所有文章均原创，严禁抄袭，违者必究
+
+**非常经典的一句话送给各位：**
+
+> 一个剑客，和对手狭路相逢，他发现对方竟是天下第一剑客，这时候他明知是死，也必须亮出宝剑！没有这个勇气就别当剑客，倒在对手的剑下不丢人，要是不敢亮剑，那才叫丢脸。
+>
+> 这也是我为啥这么多年了，还一直喜欢《亮剑》这部剧的原因，主要是精气神，这比啥都重要！
