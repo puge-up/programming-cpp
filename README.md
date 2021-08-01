@@ -115,10 +115,9 @@ Linux C/C++ 方向，入门稍微难一点，一旦选择了要走 C++ 方向的
 
 认清自我的能力、独立思考的能力、分析问题的能力等等这些能力，时刻无处不在，但是跟五大能力是有本质的区别，培养方式与提高也是完全不一样的。
 
-
 # C++ 学习笔记
 
-<div align=center><img src='./article/C++网络编程/picture/C++学习笔记.jpeg' width="50%" height="50%"></div>
+<div align=center><img src='./article/C++网络编程/picture/C++学习笔记.jpeg' width="80%" height="80%"></div>
 <p align=center>(系统性学习C++笔记)</p>
 
 [Linux C/C++学习路线(2019版)](https://github.com/puge-up/programming-play/blob/main/article/%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF%E6%89%93%E6%B3%95/LinuxC_C%2B%2B%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF_%E5%B7%B2%E6%8B%BF%E8%85%BE%E8%AE%AF_%E7%99%BE%E5%BA%A6offer.md)
@@ -319,7 +318,7 @@ C++ 这条路注定难走！（一定要想清楚自己是否真的要选择这�
 
 ## 一、视频
 
-<div align=center><img src='./article/C++网络编程/picture/C++黑马全套视频资料.jpeg' width="50%" height="50%"></div>
+<div align=center><img src='./article/C++网络编程/picture/C++黑马全套视频资料.jpeg' width="80%" height="80%"></div>
 <p align=center>(黑马全套C++视频)</p>
 
 </br>
@@ -328,14 +327,14 @@ C++ 这条路注定难走！（一定要想清楚自己是否真的要选择这�
 
 ## 二、电子书
 
-<div align=center><img src='./article/C++网络编程/picture/LinuxC_C++电子书.jpeg' width="50%" height="50%"></div>
+<div align=center><img src='./article/C++网络编程/picture/LinuxC_C++电子书.jpeg' width="80%" height="80%"></div>
 <p align=center>(Linux/C/C++ 电子书)</p>
 
 > **先分享这些 pdf，关于 C、C++、计算机基础 pdf 这类电子书太多了，基本上都是大学期间收藏的，这个我得后续整理下分享给大家，有喜欢看 pdf 的就非常方便了。**
 
 ## 三、C++项目
 
-<div align=center><img src='./article/C++网络编程/picture/C++项目.jpeg ' width="50%" height="50%"></div>
+<div align=center><img src='./article/C++网络编程/picture/C++项目.jpeg ' width="80%" height="80%"></div>
 <p align=center>(六大 C++ 实战项目)</p>
 
 **六大项目：**
