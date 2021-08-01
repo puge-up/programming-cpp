@@ -27,7 +27,9 @@
 
 # programming-cpp
 
-本 github 专栏主要记录我大学期间，一路摸索 C++ 学习路线，以及个人 C++ 学习笔记、相关项目，特此分享出来，希望能帮助到大家，在线阅读：[Linux C/C++学习笔记汇总](https://mp.weixin.qq.com/s?__biz=MzUxMzkyNDk0Ng==&mid=2247484118&idx=1&sn=f7dc72a000368c7c4e79162ee7f00014&chksm=f94c88ebce3b01fd827f163b8a3f13a786ce16115e16b70617b7e89e41b27f365fcb7625c242&token=112533774&lang=zh_CN#rd)。
+“programming-cpp”，中文意思为“编程 C++”，“C++”是这个仓库的核心含义，此处只写 C++ 相关技术栈，是一个关于“C++”的 github 仓库，在线阅读：[Linux C/C++学习笔记汇总](https://mp.weixin.qq.com/s?__biz=MzUxMzkyNDk0Ng==&mid=2247484118&idx=1&sn=f7dc72a000368c7c4e79162ee7f00014&chksm=f94c88ebce3b01fd827f163b8a3f13a786ce16115e16b70617b7e89e41b27f365fcb7625c242&token=112533774&lang=zh_CN#rd)。
+
+本 github 专栏主要记录我大学期间，一路摸索 C++ 学习路线，以及个人 C++ 学习笔记、相关项目，特此分享出来，希望能帮助到大家。
 
 C++、Java、Go 作为后台开发三大语言，从学习难度、以及校招、社招上来看，C++ 并不具备任何优势，虽然大学期间我走的是 Linux C/C++ 路线，以及校招也是 C++ 技术栈去面试，C++ 方向在面试中更加偏向底层，以及对算法要求能力更高，但是希望大家想清楚了，在决定是否要选择这门语言作为校招/社招求职技术栈，以及个人职业生涯的起点。
 
